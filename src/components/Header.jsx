@@ -1,7 +1,7 @@
 import Link from "next/link";
 import DarkModeSwitch from "./DarkModeSwitch";
 import { SignedIn,SignedOut,SignInButton,UserButton } from "@clerk/nextjs";
-export default function header() {
+export default function Header() {
   return (
     <>
       <div className="flex justify-between items-center p-3 max-w-6xl mx-auto">
